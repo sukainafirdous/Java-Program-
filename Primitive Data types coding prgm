@@ -1,0 +1,61 @@
+class Boolean {
+  public static void main(String[] args) {
+   boolean flag=true;
+   System.out.println(flag);
+  }
+}
+
+class Byte {
+  public static void main(String[] args) {
+   byte range;
+   range=124;
+   System.out.println(range);
+  }
+}
+
+class Short {
+ public static void main(String[] args) {
+  short temperature;
+  temperature=-200;
+  System.out.println(temperature);
+ }
+}
+
+class Float {
+ public static void main(String[] args) {
+  float number = -42.3f;
+  System.out.println(float);
+ }
+}
+
+class Int {
+ public static void main(String[] args) {
+  int range=-42500;
+  System.out.println(range);
+ }
+}
+
+class Long {
+ public static void main(String[] args) {
+  long range=-432200;
+  System.out.println(range);
+ }
+}
+
+class Double {
+ public static void main(String[] args) {
+  double number=-10.5;
+  System.out.println(number);
+ }
+}
+
+class Char {
+ public static void main(String[] args) {
+  char letter='\u0056';
+  System.out.println(letter);
+ }
+}
+
+
+
+  
