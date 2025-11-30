@@ -1,0 +1,22 @@
+public class LocalVariable {
+  public static void main(String[] args) {
+    int number=10;
+    System.out.println("Local Variable:"+number);
+  }
+}
+
+public class InstanceVariable {
+  int instanceVar;
+  public static void main(String[] args){
+    InstanceVariable obj=new InstanceVariable();
+    obj.instanceVar=5;
+    System.out.println("Instance Variable:"+obj.instanceVar);
+  }
+}
+
+public class StaticVariable {
+  static int staticVar=10;
+  public static void main(String[] args) {
+    System.out.println("Static Variable:"+StaticVariable.staticVar);
+  }
+}
