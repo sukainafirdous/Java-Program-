@@ -1,0 +1,59 @@
+public class Main {
+  public static void main(String[] args) {
+    String str="Hello,World!";
+    System.out.println(str);
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    int[] numbers={1,2,3,4,5};
+    System.out.println(numbers[3]);
+  }
+}
+
+class Car {
+   String model;
+   int year;
+   public Car(String model,int year){
+     this.model=model;
+     this.year=year;
+   }
+   public void displayCarInfo(){
+     System.out.println("Model:"+model+",Year:"+year);
+   }
+}
+class Main {
+   public static void main(String[] args) {
+     Car myCar=new Car("Toyota",2020);
+     myCar.displayCarInfo();
+   }
+}
+
+interface Animal {
+   void sound();
+}
+class Dog implements Animal {
+   public void sound() {
+     System.out.println("Bark");
+   }
+}
+class Cat implements Animal {
+   public void sound() {
+     System.out.println("Meow");
+   }
+}
+class Geeks {
+   public static void main(String[] args) {
+     Animal myDog=new Dog();
+     Animal myCat=new Cat();
+     myDog.sound();
+     myCat.sound();
+   }
+}
+
+
+
+
+
+
